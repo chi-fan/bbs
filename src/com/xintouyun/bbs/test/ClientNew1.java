@@ -6,5 +6,6 @@ public class ClientNew1 {
 	static MenuFactoryNew mfn=new MenuFactoryNew();
 	public static void main(String[] args) {
 		MenuFactoryNew.showBBSMenu();
+		System.out.println("结束");
 	}
 }

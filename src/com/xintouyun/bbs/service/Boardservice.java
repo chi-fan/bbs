@@ -15,5 +15,5 @@ public interface Boardservice {
 	 * @param board
 	 * @return 添加成功返回true，添加失败返回false
 	 */
-	boolean addBoard(Board board);
+	boolean addBoard(Board board);  
 }
