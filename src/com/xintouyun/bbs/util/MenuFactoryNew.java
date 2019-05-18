@@ -176,7 +176,7 @@ public class MenuFactoryNew {
 		User user = null;
 		System.out.println("请输入账号名字");
 		String uname = sc.next();
-		System.out.println(uname);
+	//	System.out.println(uname);
 		System.out.println("请输入密码");
 		String upass = sc.next();
 		while (true) {
