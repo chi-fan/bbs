@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public final class JdbcUtil {
 	private static String DRIVER_CLASS = "com.mysql.jdbc.Driver";
-	private static String URL="jdbc:mysql://localhost:3306/bbs?useUnicode=true&characterEncoding=utf-8&useSSL=false";
+	private static String URL="jdbc:mysql://localhost:3306/bbs?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true";
 	private static String USER = "root";
 	private static String PASSWORD = "123456";
 	private static ThreadLocal<Connection> threadLocal = new ThreadLocal<>();
